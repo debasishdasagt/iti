@@ -1,0 +1,260 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 5, 2017, 2:27:46 PM
+    Author     : ITI Indranagar
+*/
+
+body
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url("../images/bg.JPG");
+    color: black;
+    background-attachment: fixed;
+}
+
+#head_container
+{
+    width: 900px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#banner_container{
+width: 900px;
+height: 200px;
+overflow:hidden;
+}
+
+#td_header
+{
+    width: 400px;
+    height: 200px;
+    background-color:#FB0;
+}
+
+#td_banner_bg_img
+{
+    width: 500px;
+    height: 200px;
+    
+}
+
+#overlay
+{
+    position: relative;
+    background-color:#DA0;
+    width: 400px;
+    height: 400px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    z-index: 4;
+    top: -220px;
+    left: 395px;
+}
+
+#overlay1
+{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    top: 20px;
+    right: 10px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    z-index: 4;
+    opacity: 0.3;
+}
+
+#overlay2
+{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    top: 40px;
+    right: 20px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms--transform: rotate(10deg);
+    z-index: 3;
+    opacity: 0.3;
+    
+}
+
+#overlay3
+{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    top: 60px;
+    right: 30px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    z-index: 2;
+    opacity: 0.3;
+    
+}
+
+#overlay4
+{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    top: 80px;
+    right: 40px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    z-index: 2;
+    opacity: 0.3;
+    
+}
+
+#header_text{
+    position:absolute;
+    color: black;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 25px;
+    top: 20px;
+    text-align:center;
+}
+#sub_header{
+    font-size: 14px;
+    color: gray;
+}
+
+#menu_bar{
+    width: 900px;
+    height: 30px;
+    background-color:#006666; 
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+.button{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    border-bottom: 1px solid #006666;
+}
+.button:hover{
+    border-bottom: 1px solid #ffcc33;
+}
+.lnk{
+    color: white;
+    text-decoration: none;
+}
+
+#page_frame
+{
+    width: 700px;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 5px;
+    border-radius: 5px;
+    min-height: 805px;
+}
+
+#notification_pane{
+    width: 197px;
+    height: 210px;
+    background-color: white;
+    color: black;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+#notification_header
+{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    padding: 5px 0px 3px 0px;
+    width:190px;
+    margin-bottom: 10px;
+    
+}
+
+#notifications{
+    font-family: sans-serif;
+    font-size:10px;
+    font-weight: bold;
+    color: blue;
+}
+
+#notifications a:link{
+    color: blue;
+    text-decoration: none;
+    -webkit-transition: color 500ms;
+    transition: color 500ms;
+}
+#notifications a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+#notifications a:visited{
+    color: blue;
+    text-decoration: none;
+}
+
+
+#footer
+{
+    
+    
+    width: 900px;
+    height: 50px;
+    background-color: #006666; 
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding:10px
+}
+
+.image_link{
+    width: 190px;
+    height: 55px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+    border:1px solid grey;
+    border-radius: 26px;
+    box-shadow: 3px 3px 5px black;
+    margin: 5px;
+}
+
+ul{
+    margin-left: -25px;
+}
+
+.footer_links
+{
+    font-size: 10px;
+}

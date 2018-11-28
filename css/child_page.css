@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 6, 2017, 10:58:06 AM
+    Author     : ITI Indranagar
+*/
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#address{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: #FB0;
+    padding:10px
+}
+
+.child_header1{
+    width: 700px;
+    height:150px;
+    background-image: url("../images/509.jpg");
+    background-repeat: no-repeat;
+    padding-left: 350px;
+    padding-top: 50px;
+    font-family: "calibri";
+    font-size: 30px;
+    text-shadow: 3px 3px #eeeeee;
+}
+.child_header2{
+    width: 700px;
+    height:150px;
+    background-image: url("../images/510.jpg");
+    background-repeat: no-repeat;
+    padding-left: 350px;
+    padding-top: 50px;
+    font-family: "calibri";
+    font-size: 30px;
+    text-shadow: 3px 3px #eeeeee;
+}
+.notification_td
+{
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+}
+#notification_banner
+{
+    background-image: url("../images/notification-banner.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#schemes_banner
+{
+    background-image: url("../images/schemes.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#admission_banner
+{
+    background-image: url("../images/admission_banner.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.notification_td a:link{
+    color: blue;
+    text-decoration: none;
+    -webkit-transition: color 500ms;
+    transition: color 500ms;
+}
+
+.notification_td a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+.notification_td a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#home_banner
+{
+    background-image: url("../images/iti_front.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.s_pic
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    border: 1px solid black;
+}
+
+.s_pic_td
+{
+    width: 60px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #eeeeee;
+}
+
+.s_content
+{
+    border-radius: 0px 5px 5px 0px; 
+    background-color: #eeeeee;
+    width: 200px;
+}
+
+#staff_banner
+{
+    background-image: url("../images/staffs.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+#appform_banner
+{
+    background-image: url("../images/app_forms.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+#op_banner
+{
+    background-image: url("../images/op_banner.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+#links_banner
+{
+    background-image: url("../images/links.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;   
+}
+
+#rti_banner
+{
+    background-image: url("../images/rti.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;   
+}
+
+#result_banner
+{
+    background-image: url("../images/results.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;   
+}
+
+#contact_banner
+{
+    background-image: url("../images/contactusbg.jpg");
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;   
+}
+
+.th1
+{
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    background-color: #0077b3;
+    color: white;
+    font-size: 11px;
+}
+
+.td1
+{
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    background-color: #eeeeee;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+.td1a
+{
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    background-color: #eeeeee;
+    color: black;
+    font-size: 11px;
+    text-align: left;
+}
+
+.lefttab
+{
+    background-color: #FFDA76;
+    width: 90px;
+    padding:5px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.leftpan
+{
+    background-color: #FECB41;
+    width: 510px;
+    padding:10px;
+    border-radius: 0px 5px 5px 5px;
+    text-align: justify;
+}
+
+#partners
+{
+    width: 98%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0px 5px 5px 5px;
+    padding:3px;
+    height: 170px;
+    background-color: #71C8FA;
+}
+
+#partners_head
+{
+    background-color: #49BCFD;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.partner
+{
+    width: 180px;
+    background-image: url("../images/gears.gif");
+    background-repeat: no-repeat;
+    height: 167px;
+    margin-right: 50px;
+}
+
+.pn
+{
+    position: relative;
+    width: 90px;
+    height: 68px;
+    border-radius: 50px;
+    background-color: #FECB41;
+    top: 22px;
+    left: 22px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    box-shadow: black 3px 2px;
+    padding-top: 22px;
+}
+
+.pb
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    top: 17px;
+    left: 126px;
+}
